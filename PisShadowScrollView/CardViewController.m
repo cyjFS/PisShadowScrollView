@@ -40,7 +40,6 @@
     
     [CardViewAnimationHelper initAlphaOfCardViewsInScrollView:self.scrollView];
     
-    [self.scrollView reload];
 
 }
 

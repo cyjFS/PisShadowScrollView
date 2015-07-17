@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86D92EAA-412C-4200-880D-605CC7F87EBD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PisShadowScrollView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F2ABBC3809624521A81B411D3FA3E8EE47B7EFB9</key>
+		<string>https://github.com/cyjFS/PisShadowScrollView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PisShadowScrollView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F2ABBC3809624521A81B411D3FA3E8EE47B7EFB9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cyjFS/PisShadowScrollView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F2ABBC3809624521A81B411D3FA3E8EE47B7EFB9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F2ABBC3809624521A81B411D3FA3E8EE47B7EFB9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PisShadowScrollView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
