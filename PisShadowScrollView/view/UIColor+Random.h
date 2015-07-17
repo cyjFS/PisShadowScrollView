@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIColor+Random.h
 //  PisShadowScrollView
 //
 //  Created by newegg on 15/7/17.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface UIColor (Random)
+/*
+ 生成随机颜色
+ */
++(UIColor *)randomColor;
 @end
-

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CardViewController.h
 //  PisShadowScrollView
 //
 //  Created by newegg on 15/7/17.
@@ -7,10 +7,6 @@
 //
 
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface CardViewController : UIViewController
 
 @end
-

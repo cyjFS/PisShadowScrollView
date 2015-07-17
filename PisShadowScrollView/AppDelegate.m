@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CardViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    CardViewController *cardViewController = [[CardViewController alloc] initWithNibName:@"CardViewController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:cardViewController];
+    navController.navigationBar.backgroundColor = [UIColor yellowColor];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navController;
+    
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

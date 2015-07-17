@@ -1,0 +1,23 @@
+//
+//  PisShadowScrollView-Prefix.pch
+//  PisShadowScrollView
+//
+//  Created by newegg on 15/7/17.
+//  Copyright (c) 2015年 newegg. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <CoreGraphics/CoreGraphics.h>
+
+#import "UIView+Utils.h"
+
+#define screen_w [[UIScreen mainScreen] bounds].size.width
+#define screen_h [[UIScreen mainScreen] bounds].size.height
+
+//显示的屏幕宽度和320的差值
+#define screen_dif_w ([[UIScreen mainScreen] bounds].size.width-320)
+
+#endif

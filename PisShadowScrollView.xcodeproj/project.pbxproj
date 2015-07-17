@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		BBB859391B588F1300D43CA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB859381B588F1300D43CA7 /* main.m */; };
 		BBB8593C1B588F1300D43CA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB8593B1B588F1300D43CA7 /* AppDelegate.m */; };
-		BBB8593F1B588F1300D43CA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB8593E1B588F1300D43CA7 /* ViewController.m */; };
-		BBB859421B588F1300D43CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB859401B588F1300D43CA7 /* Main.storyboard */; };
 		BBB859441B588F1300D43CA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB859431B588F1300D43CA7 /* Images.xcassets */; };
 		BBB859471B588F1300D43CA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB859451B588F1300D43CA7 /* LaunchScreen.xib */; };
 		BBB859531B588F1300D43CA7 /* PisShadowScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB859521B588F1300D43CA7 /* PisShadowScrollViewTests.m */; };
+		BBB859601B58906D00D43CA7 /* NEPagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB8595C1B58906D00D43CA7 /* NEPagedScrollView.m */; };
+		BBB859611B58906D00D43CA7 /* CardViewAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB8595D1B58906D00D43CA7 /* CardViewAnimationHelper.m */; };
+		BBB859651B5890CB00D43CA7 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB859631B5890CB00D43CA7 /* CardViewController.m */; };
+		BBB859661B5890CB00D43CA7 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB859641B5890CB00D43CA7 /* CardViewController.xib */; };
+		BBB8596D1B58A10300D43CA7 /* UIView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB8596B1B58A10300D43CA7 /* UIView+Utils.m */; };
+		BBB859711B58A3B400D43CA7 /* PagedScrollViewHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB859701B58A3B400D43CA7 /* PagedScrollViewHelperView.m */; };
+		BBB859741B58C65F00D43CA7 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB859731B58C65F00D43CA7 /* CardView.m */; };
+		BBB859761B58C6A100D43CA7 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB859751B58C6A100D43CA7 /* CardView.xib */; };
+		BBB859791B58C98800D43CA7 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB859781B58C98800D43CA7 /* UIColor+Random.m */; };
+		BBB8597B1B58D0A600D43CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB8597A1B58D0A600D43CA7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,29 @@
 		BBB859381B588F1300D43CA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBB8593A1B588F1300D43CA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBB8593B1B588F1300D43CA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BBB8593D1B588F1300D43CA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BBB8593E1B588F1300D43CA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BBB859411B588F1300D43CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBB859431B588F1300D43CA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BBB859461B588F1300D43CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BBB8594C1B588F1300D43CA7 /* PisShadowScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PisShadowScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB859511B588F1300D43CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBB859521B588F1300D43CA7 /* PisShadowScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PisShadowScrollViewTests.m; sourceTree = "<group>"; };
+		BBB8595C1B58906D00D43CA7 /* NEPagedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NEPagedScrollView.m; path = ../NEPagedScrollView.m; sourceTree = "<group>"; };
+		BBB8595D1B58906D00D43CA7 /* CardViewAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardViewAnimationHelper.m; path = ../CardViewAnimationHelper.m; sourceTree = "<group>"; };
+		BBB8595E1B58906D00D43CA7 /* CardViewAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardViewAnimationHelper.h; path = ../CardViewAnimationHelper.h; sourceTree = "<group>"; };
+		BBB8595F1B58906D00D43CA7 /* NEPagedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NEPagedScrollView.h; path = ../NEPagedScrollView.h; sourceTree = "<group>"; };
+		BBB859621B5890CB00D43CA7 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		BBB859631B5890CB00D43CA7 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		BBB859641B5890CB00D43CA7 /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		BBB8596A1B58A02600D43CA7 /* PisShadowScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PisShadowScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		BBB8596B1B58A10300D43CA7 /* UIView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Utils.m"; path = "../UIView+Utils.m"; sourceTree = "<group>"; };
+		BBB8596C1B58A10300D43CA7 /* UIView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Utils.h"; path = "../UIView+Utils.h"; sourceTree = "<group>"; };
+		BBB8596F1B58A3B400D43CA7 /* PagedScrollViewHelperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewHelperView.h; sourceTree = "<group>"; };
+		BBB859701B58A3B400D43CA7 /* PagedScrollViewHelperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewHelperView.m; sourceTree = "<group>"; };
+		BBB859721B58C65F00D43CA7 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		BBB859731B58C65F00D43CA7 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		BBB859751B58C6A100D43CA7 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		BBB859771B58C98800D43CA7 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		BBB859781B58C98800D43CA7 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		BBB8597A1B58D0A600D43CA7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +106,11 @@
 			children = (
 				BBB8593A1B588F1300D43CA7 /* AppDelegate.h */,
 				BBB8593B1B588F1300D43CA7 /* AppDelegate.m */,
-				BBB8593D1B588F1300D43CA7 /* ViewController.h */,
-				BBB8593E1B588F1300D43CA7 /* ViewController.m */,
-				BBB859401B588F1300D43CA7 /* Main.storyboard */,
+				BBB859621B5890CB00D43CA7 /* CardViewController.h */,
+				BBB859631B5890CB00D43CA7 /* CardViewController.m */,
+				BBB859641B5890CB00D43CA7 /* CardViewController.xib */,
+				BBB8597A1B58D0A600D43CA7 /* Main.storyboard */,
+				BBB8596E1B58A1B200D43CA7 /* view */,
 				BBB859431B588F1300D43CA7 /* Images.xcassets */,
 				BBB859451B588F1300D43CA7 /* LaunchScreen.xib */,
 				BBB859361B588F1300D43CA7 /* Supporting Files */,
@@ -96,6 +121,7 @@
 		BBB859361B588F1300D43CA7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BBB8596A1B58A02600D43CA7 /* PisShadowScrollView-Prefix.pch */,
 				BBB859371B588F1300D43CA7 /* Info.plist */,
 				BBB859381B588F1300D43CA7 /* main.m */,
 			);
@@ -117,6 +143,26 @@
 				BBB859511B588F1300D43CA7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB8596E1B58A1B200D43CA7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BBB859721B58C65F00D43CA7 /* CardView.h */,
+				BBB859731B58C65F00D43CA7 /* CardView.m */,
+				BBB859751B58C6A100D43CA7 /* CardView.xib */,
+				BBB8596B1B58A10300D43CA7 /* UIView+Utils.m */,
+				BBB8596C1B58A10300D43CA7 /* UIView+Utils.h */,
+				BBB8595F1B58906D00D43CA7 /* NEPagedScrollView.h */,
+				BBB8595C1B58906D00D43CA7 /* NEPagedScrollView.m */,
+				BBB8596F1B58A3B400D43CA7 /* PagedScrollViewHelperView.h */,
+				BBB859701B58A3B400D43CA7 /* PagedScrollViewHelperView.m */,
+				BBB8595E1B58906D00D43CA7 /* CardViewAnimationHelper.h */,
+				BBB8595D1B58906D00D43CA7 /* CardViewAnimationHelper.m */,
+				BBB859771B58C98800D43CA7 /* UIColor+Random.h */,
+				BBB859781B58C98800D43CA7 /* UIColor+Random.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB859421B588F1300D43CA7 /* Main.storyboard in Resources */,
+				BBB859661B5890CB00D43CA7 /* CardViewController.xib in Resources */,
+				BBB8597B1B58D0A600D43CA7 /* Main.storyboard in Resources */,
 				BBB859471B588F1300D43CA7 /* LaunchScreen.xib in Resources */,
+				BBB859761B58C6A100D43CA7 /* CardView.xib in Resources */,
 				BBB859441B588F1300D43CA7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +267,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBB8593F1B588F1300D43CA7 /* ViewController.m in Sources */,
+				BBB859711B58A3B400D43CA7 /* PagedScrollViewHelperView.m in Sources */,
+				BBB8596D1B58A10300D43CA7 /* UIView+Utils.m in Sources */,
+				BBB859741B58C65F00D43CA7 /* CardView.m in Sources */,
+				BBB859791B58C98800D43CA7 /* UIColor+Random.m in Sources */,
+				BBB859601B58906D00D43CA7 /* NEPagedScrollView.m in Sources */,
+				BBB859651B5890CB00D43CA7 /* CardViewController.m in Sources */,
 				BBB8593C1B588F1300D43CA7 /* AppDelegate.m in Sources */,
 				BBB859391B588F1300D43CA7 /* main.m in Sources */,
+				BBB859611B58906D00D43CA7 /* CardViewAnimationHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +298,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BBB859401B588F1300D43CA7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBB859411B588F1300D43CA7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBB859451B588F1300D43CA7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +393,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PisShadowScrollView/PisShadowScrollView-Prefix.pch";
 				INFOPLIST_FILE = PisShadowScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +405,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PisShadowScrollView/PisShadowScrollView-Prefix.pch";
 				INFOPLIST_FILE = PisShadowScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

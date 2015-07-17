@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CardView.h
 //  PisShadowScrollView
 //
 //  Created by newegg on 15/7/17.
@@ -7,10 +7,7 @@
 //
 
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface CardView : UIView
 
-@property (strong, nonatomic) UIWindow *window;
-
-
+-(void)bindIndex:(NSInteger)index;
 @end
-

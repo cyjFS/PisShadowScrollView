@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardViewController">
+            <connections>
+                <outlet property="footHelperView" destination="10r-a1-zm3" id="rf6-Y9-6fM"/>
+                <outlet property="scrollView" destination="BCi-GE-gB6" id="nPi-K2-T3G"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCi-GE-gB6" customClass="NEPagedScrollView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="355"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="355" id="VVz-ag-WI5"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="10r-a1-zm3" customClass="PagedScrollViewHelperView">
+                    <rect key="frame" x="0.0" y="354" width="320" height="150"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="scrollView" destination="BCi-GE-gB6" id="swn-wA-LVI"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="10r-a1-zm3" firstAttribute="top" secondItem="BCi-GE-gB6" secondAttribute="bottom" constant="-1" id="1j3-rn-jSZ"/>
+                <constraint firstAttribute="trailing" secondItem="BCi-GE-gB6" secondAttribute="trailing" id="5TI-5f-aPo"/>
+                <constraint firstAttribute="bottom" secondItem="10r-a1-zm3" secondAttribute="bottom" id="70W-25-MG3"/>
+                <constraint firstItem="BCi-GE-gB6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Sjk-8W-GrL"/>
+                <constraint firstItem="10r-a1-zm3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zgf-31-naO"/>
+                <constraint firstItem="BCi-GE-gB6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aJc-VD-hyp"/>
+                <constraint firstAttribute="trailing" secondItem="10r-a1-zm3" secondAttribute="trailing" id="gpr-Ws-UK6"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
