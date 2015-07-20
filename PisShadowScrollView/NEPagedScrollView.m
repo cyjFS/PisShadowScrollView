@@ -133,6 +133,7 @@
 	self.visibleItemViews = [NSMutableDictionary dictionary];
 	self.cycledItemViews = [NSMutableArray array];
 	
+    self.frame = CGRectMake(0, 0, screen_w, 355);
 	self.maskView = [[UIView alloc] initWithFrame:self.bounds];
 	[self addSubview:self.maskView];
 	
@@ -249,6 +250,7 @@
 		[self.pagedScrollViewDelegate pagedScrollViewDidScroll:self];
 	}
 }
+
 #pragma mark - touch events
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
 	[super touchesBegan:touches withEvent:event];
