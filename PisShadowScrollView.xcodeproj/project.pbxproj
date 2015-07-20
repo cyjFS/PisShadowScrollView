@@ -22,6 +22,7 @@
 		BBB859761B58C6A100D43CA7 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB859751B58C6A100D43CA7 /* CardView.xib */; };
 		BBB859791B58C98800D43CA7 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB859781B58C98800D43CA7 /* UIColor+Random.m */; };
 		BBB8597B1B58D0A600D43CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB8597A1B58D0A600D43CA7 /* Main.storyboard */; };
+		BBDCA8101B5C969F002D879B /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = BBDCA80F1B5C969F002D879B /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BBB859771B58C98800D43CA7 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
 		BBB859781B58C98800D43CA7 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		BBB8597A1B58D0A600D43CA7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BBDCA80F1B5C969F002D879B /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				BBB8596E1B58A1B200D43CA7 /* view */,
 				BBB859431B588F1300D43CA7 /* Images.xcassets */,
 				BBB859451B588F1300D43CA7 /* LaunchScreen.xib */,
+				BBDCA80F1B5C969F002D879B /* Untitled.gif */,
 				BBB859361B588F1300D43CA7 /* Supporting Files */,
 			);
 			path = PisShadowScrollView;
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBB859661B5890CB00D43CA7 /* CardViewController.xib in Resources */,
+				BBDCA8101B5C969F002D879B /* Untitled.gif in Resources */,
 				BBB8597B1B58D0A600D43CA7 /* Main.storyboard in Resources */,
 				BBB859471B588F1300D43CA7 /* LaunchScreen.xib in Resources */,
 				BBB859761B58C6A100D43CA7 /* CardView.xib in Resources */,
@@ -466,6 +470,7 @@
 				BBB859581B588F1300D43CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBB859591B588F1300D43CA7 /* Build configuration list for PBXNativeTarget "PisShadowScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				BBB8595B1B588F1300D43CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
